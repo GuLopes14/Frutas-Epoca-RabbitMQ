@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Others
+.vscode/
+
+# Ignore local secrets
+secrets.json
+appsettings.Local.json
