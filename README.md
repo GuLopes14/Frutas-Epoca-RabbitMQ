@@ -1,6 +1,15 @@
 ﻿
 # FrutasEpoca RabbitMQ Demo
 
+Integrantes:
+- Renato de Freitas David Campiteli - RM 555627
+- Gustavo Lopes Santos da Silva - RM 556859
+- Gabriel Santos Jablonski - RM 555452
+- Samuel Maragato Ferreira Apolinário - RM 556731
+- Matheus Oliveira de Luna - RM 555547
+
+Pf. Marcel Stefan Wagner
+
 ## Visão Geral
 
 Este projeto demonstra o uso de RabbitMQ com .NET 8 para troca de mensagens entre dois Senders, um serviço de validação e dois Receivers. O cenário simula:
