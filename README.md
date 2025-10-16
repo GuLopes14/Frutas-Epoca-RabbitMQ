@@ -159,15 +159,4 @@ Para enviar testes, use as opções `1` e `2` no menu da aplicação e observe a
   4. Se o `git rm --cached` falhar por causa de permissão, rode o PowerShell como Administrador ou reinicie o Windows para liberar locks.
 
 ---
-
-## Próximas melhorias (opcionais)
-
-- Adicionar volumes persistentes no `docker-compose.yml` para proteger dados do broker entre reinícios.
-- Melhorar tolerância a falhas/reconexão no consumidor (circuit-breakers/retries).
-- Corrigir os avisos de nulabilidade (marcar propriedades opcionais como `string?` ou inicializá-las) para eliminar warnings do compilador.
-
----
-
-Se quiser, eu aplico a atualização do `docker-compose.yml` para usar `rabbitmq:3.11-management` e adicionar volume persistente — quer que eu faça isso agora?
-
    
